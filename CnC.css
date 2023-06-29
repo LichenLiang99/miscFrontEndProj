@@ -1,0 +1,26 @@
+body {
+    border: 1px solid hsla(0, 0%, 83%, 0.856);
+    width: 30vw;
+}
+
+.tab {
+    display: flex;
+    background-color: hsl(0, 0%, 93%);
+}
+
+h2, p {
+    padding-left: 1vw;
+}
+
+.tab button {
+    border: none;
+    padding: 1vw;
+    font-size: larger;
+    background-color: hsl(0, 0%, 93%);
+
+}
+
+.tab button:hover{
+    background-color: hsla(0, 0%, 83%, 0.856);
+}
+

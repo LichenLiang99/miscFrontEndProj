@@ -1,0 +1,38 @@
+div {
+    text-align: left;
+    font-size: x-large;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.header {
+    height: 100px;
+    width: 1000px;
+    background-color: yellowgreen;
+}
+
+.nav {
+    height: 500px;
+    width: 200px;
+    background-color: hsl(62, 32%, 83%);
+}
+
+.article {
+    height: 500px;
+    width: 600px;
+    background-color: white;
+}
+
+.aside {
+    height: 500px;
+    width: 200px;
+    background-color: hsl(62, 32%, 83%);
+}
+
+.footer {
+    height: 50px;
+    width: 1000px;
+    background-color: yellow;
+}

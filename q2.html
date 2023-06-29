@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Week2Day3Coding2" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Search User</title>
+        <style>
+            .flex-container{
+                display: flex;
+                flex-direction: column;
+                border: 1px solid black;
+                flex-wrap: nowrap;
+            }
+
+            td{
+                background-color: antiquewhite;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form class ="searchID">
+            <label for="inputID">Enter user ID:</label>
+            <input type="number" id="inputID" required></input>
+            <button type="submit" id="submitBtn">Search</button>
+        </form>
+        
+        <div class = "flex-container">
+            <table id = "users">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>name</th>
+                        <th>username</th>
+                        <th>email</th>
+                        <th>address</th>
+                        <th>phone</th>
+                        <th>website</th>
+                        <th>company</th>
+                    </tr>
+                </thead>
+                
+                <tbody id="usersData"></tbody>
+            </table>
+            <hr>
+            <table id = "posts">
+                <thead>
+                    <tr>
+                        <th>userId</th>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>body</th>
+                    </tr>
+                </thead>
+                
+                <tbody id="postsData"></tbody>
+            </table>
+            <hr>
+            <table id = "todos">
+                <thead>
+                    <tr>
+                        <th>userId</th>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>completed</th>
+                    </tr>
+                </thead>
+                
+                <tbody id="todosData"></tbody>
+            </table>
+        </div>
+
+        <h1 id="error"></h1>
+    </body>
+    <script src="q2.js"></script>
+</html>

@@ -1,0 +1,8 @@
+li:nth-of-type(even):hover::first-letter {
+    color: red;
+    font-size: 35px;
+}
+
+li:nth-of-type(odd):hover{
+    background-color: yellow;
+}
